@@ -1,5 +1,5 @@
 provider "google" {
-  project     = "academy-docente-test"
+  project     = "ennova-apigee-x"
   region      = "europe-west8"
 
 }
