@@ -1,6 +1,6 @@
 terraform {
   backend "gcs" {
-    bucket = "terraform-umana-tf"
+    bucket = "day13-terraform-umana-tf"
     prefix = "terraform/state"
   }
 }
