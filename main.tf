@@ -1,3 +1,9 @@
+provider "google" {
+  project     = "academy-docente-test"
+  region      = "europe-west8"
+
+}
+
 module "vpc" {
     source  = "terraform-google-modules/network/google"
     version = "9.3.0"
